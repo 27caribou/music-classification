@@ -17,3 +17,12 @@ The concept of content-based filtering appealed more to me, so I looked for a da
 
 The dataset used in this project is the [GTZAN Dataset](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification).
 
+
+
+### Acknowledgements
+
+* Project is mainly inspired by **Vikram Shenoy's** [*work*](https://github.com/VikramShenoy97/Music-Recommendation-Using-Deep-Learning).
+* **Valerio Velardo's** [*Youtube channel*](https://www.youtube.com/c/ValerioVelardoTheSoundofAI) is a great resource for learning about music in AI
+* [*Work w/ Audio Data: Visualise, Classify, Recommend*](https://github.com/VikramShenoy97/Music-Recommendation-Using-Deep-Learning) by **Andrada Olteanu**.
+* **Ketan Doshi's** articles on [*Audio Deep Learning*](https://towardsdatascience.com/audio-deep-learning-made-simple-part-1-state-of-the-art-techniques-da1d3dff2504)
+
