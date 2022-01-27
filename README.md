@@ -1,2 +1,2 @@
 # music-classification
-Using a convolutional neural network to classify songs into their genre of music
+Music Classification using a Convolutional Neural Network
