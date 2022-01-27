@@ -1,7 +1,7 @@
 # Music Classification using a Convolutional Neural Network
 
 
-## Introduction
+## Motivations
 
 As I started diving into Deep Learning, I thought it would be a good idea to work on a relatable project to reinforce what I learned so far. That is how I came across various articles talking about how you could use Deep Learning to classify songs. Being a very active Spotify user, I got excited about the premise.
 
@@ -13,8 +13,7 @@ Another approach involved content-based filtering which then included analyzing 
 
 The concept of content-based filtering appealed more to me, so I looked for a dataset that would fit that approach.
 
-### Dataset
+### About the Project
 
-The dataset I decided to use is the [GTZAN Dataset](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification).
+The dataset used in this project is the [GTZAN Dataset](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification).
 
-It contains a folder called "genres_original", which is a collection of 10 genres with 100 audio files each, all having a length of 30 seconds;
