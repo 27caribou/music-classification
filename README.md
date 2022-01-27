@@ -39,13 +39,20 @@ Most of the preprocessing has to do with extracting MFCCs from audio signals. I 
 
 Instead of focusing of my model, I decided to take a more data-centric approach. I did some research and found useful audio transformations relevant to this project: *pitch scaling, random gain and white noise*. That way, I'm not only increasing the amount of data, but I'm also making the model more robust to situations when the audio is not as clean.
 
-Original MFCC
+**Original MFCC**
+
 ![model_training_no_augmentation](https://github.com/27caribou/music-classification/blob/main/Snapshots/sample_mfcc_original.png)
-Pitch scale applied
+
+**Pitch scale applied**
+
 ![model_training_no_augmentation](https://github.com/27caribou/music-classification/blob/main/Snapshots/sample_mfcc_pitch_scale.png)
-Random gain applied
+
+**Random gain applied**
+
 ![model_training_no_augmentation](https://github.com/27caribou/music-classification/blob/main/Snapshots/sample_mfcc_random_gain.png)
-White noise applied
+
+**White noise applied**
+
 ![model_training_no_augmentation](https://github.com/27caribou/music-classification/blob/main/Snapshots/sample_mfcc_white_noise.png)
 
 
