@@ -19,7 +19,9 @@ The dataset used in this project is the [GTZAN Dataset](https://www.kaggle.com/a
 
 The basic idea of this project is to classify songs into 10 genres of music by passing their **MFCCs** through a convolutional neural network. Mel Frequency Cepstral Coefficients (MFCCs) are a small set of features (usually about 10-20) that concisely describe the overall shape of the sound. Just like mel spectrograms, MFCCs have also proven to provide good results in music AI projects.
 
-The MFCCs are extracted from every song found in the genres_original folder. Due to the limited number of samples given (100 songs * 10 genres), I used different augmentation techniques to produce more data to feed into the CNN. **As a result, I was able to produce a 97% accuracy on my training data and 94% accuracy on my validation data, which is better than the 90% benchmark I set using the ANN produced from the data in the features_3_sec.csv file**.
+The MFCCs are extracted from every song found in the genres_original folder. Due to the limited number of samples given (100 songs * 10 genres), I used different augmentation techniques to produce more data to feed into the CNN.
+
+**As a result, I was able to produce a 97% accuracy on my training data and 94% accuracy on my validation data, which is better than the 90% benchmark I set using the ANN produced from the data in the features_3_sec.csv file**.
 
 ### 1_Features_3_sec_model
 
@@ -35,7 +37,16 @@ Most of the preprocessing has to do with extracting MFCCs from audio signals. I 
 
 ![model_training_no_augmentation](https://github.com/27caribou/music-classification/blob/main/Snapshots/loss_and_accuracy_no_augmentation.png)
 
+Instead of focusing of my model, I decided to take a more data-centric approach. I did some research and found useful audio transformations relevant to this project: *pitch scaling, random gain and white noise*. That way, I'm not only increasing the amount of data, but I'm also making the model more robust to situations when the audio is not as clean.
 
+Original MFCC
+![model_training_no_augmentation](https://github.com/27caribou/music-classification/blob/main/Snapshots/sample_mfcc_original.png)
+Pitch scale applied
+![model_training_no_augmentation](https://github.com/27caribou/music-classification/blob/main/Snapshots/sample_mfcc_pitch_scale.png)
+Random gain applied
+![model_training_no_augmentation](https://github.com/27caribou/music-classification/blob/main/Snapshots/sample_mfcc_random_gain.png)
+White noise applied
+![model_training_no_augmentation](https://github.com/27caribou/music-classification/blob/main/Snapshots/sample_mfcc_white_noise.png)
 
 
 
